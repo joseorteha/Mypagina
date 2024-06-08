@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Mypagina</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="generos.html">Géneros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reseñas">Reseñas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trailers">Trailers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perfil.html">Perfil</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <section id="busqueda" class="mb-5">
+            <h2 class="text-center">Buscar Película</h2>
+            <form action="/ruta_a_tu_script_de_busqueda" method="get" class="form-inline justify-content-center">
+                <input type="text" id="query" name="query" class="form-control mr-2" placeholder="Escribe el nombre de la película...">
+                <input type="submit" class="btn btn-primary" value="Buscar">
+            </form>
+        </section>
+
+        <section id="catalogo" class="mb-5">
+            <h2 class="text-center">Catálogo de Películas</h2>
+            <div class="row">
+                <!-- Aquí van las tarjetas de las películas -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="imagenes/p1.jpg" class="card-img-top" alt="Película">
+                        <div class="card-body">
+                            <h5 class="card-title">LA JUNGLA</h5>
+                            <p class="card-text">Un guía acompaña a un aventurero y a su amigo a la selva amazónica.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetir las tarjetas de las películas según sea necesario -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="imagenes/p1.jpg" class="card-img-top" alt="Película">
+                        <div class="card-body">
+                            <h5 class="card-title">PELÍCULA 2</h5>
+                            <p class="card-text">Descripción breve de la película 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="imagenes/p1.jpg" class="card-img-top" alt="Película">
+                        <div class="card-body">
+                            <h5 class="card-title">PELÍCULA 3</h5>
+                            <p class="card-text">Descripción breve de la película 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="imagenes/p1.jpg" class="card-img-top" alt="Película">
+                        <div class="card-body">
+                            <h5 class="card-title">PELÍCULA 4</h5>
+                            <p class="card-text">Descripción breve de la película 4.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="bg-light py-3 text-center">
+        <p>Derechos de autor © JOSE ORTEGA 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="JavaScrip/main.js"></script>
+</body>
+</html>

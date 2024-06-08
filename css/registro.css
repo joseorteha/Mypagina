@@ -1,0 +1,39 @@
+body {
+    background-color: #f7f8fc;
+}
+
+.box-area {
+    border-radius: 20px;
+}
+
+.left-box {
+    background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+    color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.left-box .featured-image img {
+    width: 250px;
+}
+
+.right-box {
+    padding: 40px;
+}
+
+.header-text h2 {
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.forgot a {
+    color: #5151e5;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
